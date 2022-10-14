@@ -1,0 +1,46 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+nav{
+    display: flex;
+}
+.menuDerecha{
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+}
+.valor{
+    padding: 5px;
+}
+input{
+    width: 20rem;
+    text-decoration: none;
+    border: none;
+}
+.barraBusqueda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+    height: 3rem;
+}
+.botonBarraBusqueda{
+    border: 0;
+    background-color: white;
+}
+.aplicaciones{
+    margin-top: 2rem;
+}
