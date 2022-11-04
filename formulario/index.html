@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const msg=()=>{
+            window.location.href='https://classroom.google.com'
+        }
+        const vervalor=()=>{
+            document.querySelector('#color')
+            alert(color.value)
+        }
+    </script>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <form action="#" method="post">
+        <input type="text" name="" id="" placeholder="email">
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <input type="color" name="" id="color" onchange="vervalor()">
+        <input type="date" name="" id="">
+        <input type="time" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="password" name="" id="" required>
+        <input type="file" name="" id="">
+        <input type="range" name="" id="" min="1" max="5" step="0.1">
+
+        <label for="audi">Audi</label>
+        <input type="checkbox" name="" id="audi">
+        <label for="bmw">BMW</label>
+        <input type="checkbox" name="" id="bmw">
+        <label for="toyota">Toyota</label>
+        <input type="checkbox" name="" id="toyota">
+
+        <label for="adidas">Adidas</label>
+        <input type="radio" name="marcas" id="adidas">
+        <label for="nike">Nike</label>
+        <input type="radio" name="marcas" id="nike">
+        <label for="puma">Puma</label>
+        <input type="radio" name="marcas" id="puma">
+
+        <input type="submit" value="Enviar"/>
+        <input type="button" value="Botón" onclick="msg()">
+        <input type="reset" value="Limpiar">
+    </form>
+    
+</body>
+</html>
